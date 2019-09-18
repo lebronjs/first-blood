@@ -6,7 +6,7 @@ javascript:(function(){
       items.push(elements[i]);
     }
   }
-  if(item.length>0){
+  if(items.length>0){
     for(var i =0; i<items.length; i++){
       items[i].innerHtml=''
     }
