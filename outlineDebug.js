@@ -9,8 +9,8 @@ javascript:(function(){
   if(item.length>0){
     for(var i =0; i<items.length; i++){
       items[i].innerHtml=''
-    }else{
-      document.body.innerHTML += '<style>html *{outline:1px solid red}</style>'
     }
+  }else{
+      document.body.innerHTML += '<style>html *{outline:1px solid red}</style>'
   }
 })();
